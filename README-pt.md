@@ -34,8 +34,46 @@
   - **Google Satellite Hybrid / HCMGIS (2026):** Forneceu as imagens orbitais de alta resolução para a visualização do lote proposto em Tucson e das áreas adjacentes na escala de micro-triagem.
 ---
 
-## 3. Produtos Cartográficos
-### 3.1 Análise em macro escala
-![mapa1](RegionalCommercialTrafficAADT.png)
+## 3. Produtos Cartográficos 
+### 3.1 Território do Arizona: Terra, Competidores e Fluxo Rodoviário
+![mapa1](TotalVehicle_Vol_Estimat.png)
 
-* Para resp
+* Inicialmente, o estado do Arizona foi classificado em três áreas: território privado, governamental e federal. Além disso, houve inserção dos pontos correspondentes aos principais concorrentes no ramo de truck stop e paradas para caminhoneiros.
+* A análise de viabilidade estadual do Arizona revela que a maior concentração de tráfego ocorre na capital, Phoenix, que registra o fluxo rodoviário mais intenso do estado, com trechos superando 200.000 veículos diários. O segundo polo de maior volume localiza-se em Tucson, a segunda cidade mais populosa, formando um corredor logístico de alta densidade entre os dois grandes centros urbanos. Essa dinâmica foi quantificada a partir das métricas do AZGeo Data Hub publicadas em 2025, que projetam a estimativa do Volume Médio Diário Anual de Veículos (Future AADT) para o ano de 2026, calculadas com base no histórico de comportamento do fluxo rodoviário de anos anteriores.
+
+### 3.2 Fluxo Rodoviário: Fluxo de Caminhões de Unidade Simples
+![mapa2](RegionalCommercial_Traffic.png)
+* A análise do tráfego comercial regional foca nos caminhões de unidade simples (Single-Unit Trucks), veículos de carga de estrutura rígida sem articulação. O mapa demonstra que a densidade desse tipo de frota está fortemente concentrada nas zonas metropolitanas para distribuição local, com a região de Phoenix registrando alto fluxo de caminhões diariamente.
+* Tucson desponta como o segundo maior polo, apresentando trechos urbanos e periurbanos com tráfego variando de 10.000 a mais de 20.000 veículos por dia. Além da circulação interna das cidades, o eixo rodoviário que interliga Phoenix a Tucson sustenta um fluxo contínuo e elevado, mantendo volumes expressivos entre 4.000 e 10.000 caminhões diários. Isso evidencia a vitalidade estrutural desse corredor específico para a logística regional de curta e média distância no estado.
+
+### 3.3 Objetivo Comercial Através de Fluxo Rodoviário & Buffer para Análise da Área de Influência
+![mapa3](LongHaul_Commercial.png)
+* O tráfego comercial de longo curso foca-se nos veículos articulados pesados (Combination Trucks), essenciais para a logística interestadual e de grandes distâncias. O mapeamento revela que as principais artérias de escoamento atravessam o estado, mas o maior eixo de concentração rodoviária interliga, de forma expressiva, as áreas metropolitanas de Phoenix e Tucson.
+* Esta métrica demonstra a elevada dependência desta rota para o transporte de mercadorias e viabiliza o corredor I-10 como a zona de maior viabilidade estrutural para a intercessão do tráfego pesado de longa duração. Devido ao objetivo proposto da construção de um Truck Stop, a análise do fluxo de caminhões articulados é de suma relevância por indicar potenciais clientes.
+
+Com base no exposto, realizei um buffer de 20 e 30 milhas dos losangos do mapa, correspondentes aos principais competidores mapeados através de [API em Python](arizonaproject.ipynb) com dados do OpenStreetMap, da localização dos sites oficiais e de inspeção através de imagens de satélite do Google.
+
+![buffer](printofbuffer.png)
+* O processamento espacial consistiu na criação de buffers de 20 e 30 milhas de raio ao redor de cada concorrente previamente mapeado, representando as principais redes do setor. Utilizou-se a operação de dissolver (dissolve) para unificar os polígonos que se intersectavam, resultando em uma mancha contínua que delimita a zona de influência comercial já consolidada no estado.
+* A partir dessa delimitação geométrica, aplicou-se uma ferramenta de diferença espacial entre a camada de volume de tráfego comercial pesado (Heavy Truck Volume) e a área de abrangência unificada dos buffers.
+
+![mapa4](Highvol_Corridors.png)
+* O mapa de Market Gaps consolida a operação espacial de exclusão. As linhas pontilhadas delimitam os vazios mercadológicos identificados, categorizados como "Sweet Spot" (gap de 20 milhas entre concorrentes, em vermelho vivo) e "Crowded Market" (vazios superiores a 30 milhas, em vermelho escuro).
+* A análise cartográfica comprova que o corredor da I-10, posicionado a noroeste de Tucson, apresenta a convergência estrutural ideal: altíssima densidade de tráfego logístico (AADT > 10.000 caminhões/dia) inserida exatamente em um "Sweet Spot" de 20 milhas livre da influência direta da concorrência mapeada. Este cruzamento de dados empíricos fundamenta geograficamente a escolha da região para a prospecção em microescala.
+
+### 3.4 Análise de Viabilidade e Seleção do Terreno
+![mapa5](FEMA_flood_hazard.png)
+* Definido o raio de interesse na I-10, a avaliação seguinte exigiu a validação de segurança ambiental perante os riscos hidrológicos. Através da camada do National Flood Hazard Layer (FEMA) referente ao ano de 2026, mapearam-se as classes de perigo de inundação para o estado do Arizona.
+* A inspeção detalhada (destaque no canto superior direito) demonstra o terreno proposto em Tucson (Proposed Land on Tucson) inserido de forma integral numa zona específica (Viable and Safe Zones).
+* Esta evidência cartográfica certifica que a área pretendida não intersecta as zonas de elevado risco (Special Flood Hazard Areas, como as zonas A e AE delineadas a azul claro), mitigando ameaças estruturais decorrentes de cheias repentinas e assegurando a viabilidade física e operacional do projeto.
+---
+
+# 4. Área de Interesse: Terreno em Tucson na Interstate 10
+![mapa6](Tucson_Site_Acquisition.png)
+* A etapa final de micro-triagem utilizou imagens orbitais de alta resolução para avaliar as condições físicas do terreno à escala de lote. O polígono verde delineia a área de expansão proposta, inserida com precisão no vazio mercadológico de 20 milhas previamente fundamentado.
+* O mapeamento fundiário confirmou o estatuto da área como propriedade privada, viabilizando o processo de aquisição comercial. A localização adjacente à Interstate 10 garante acesso logístico imediato a uma área de alto fluxo rodoviário, entretanto, em uma área do perímetro calculado indicado como área de interesse há a presença de um posto de combustível para veículos de passeio. A sugestão é comprar essa área junto a esse posto e abrir um Truck Stop competitivo, tendo em vista a alta presença de empreendimentos desse gênero no estado. 
+* A análise da geometria do lote evidencia área útil suficiente para suportar o raio de manobra exigido por veículos articulados de grande porte e infraestrutura de parqueamento de longa duração. Esta configuração espacial garante uma vantagem estrutural sobre o concorrente local de menor capacidade (Maverick Adv.) assinalado nas imediações, que não foi demarcado como concorrente devido a não ter sido identificado durante as análises como filial ou sócio de nenhuma das grandes empresas destacadas para a pesquisa.
+
+
+
+
