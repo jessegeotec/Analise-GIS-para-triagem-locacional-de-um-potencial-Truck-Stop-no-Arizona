@@ -86,4 +86,4 @@ Para explorar outras abordagens metodológicas e ferramentas do meu portfólio, 
 
 ### **Obrigado!**
 
-[LinkedIn](www.linkedin.com/in/jessegeotec) | [E-mail](mailto:jesselimabiz@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/jessegeotec/) | [E-mail](mailto:jesselimabiz@outlook.com)
