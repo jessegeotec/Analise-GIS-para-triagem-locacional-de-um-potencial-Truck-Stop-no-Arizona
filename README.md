@@ -75,7 +75,7 @@ Based on these findings, I generated 20-mile and 30-mile buffers around the mapp
 ---
 
 # 4. Area of Interest: Tucson Site on Interstate 10
-![map6](Tucson_Site_Acq.png)
+![map6](Tucson_site_feasibility.png)
 * The final micro-screening stage used high-resolution satellite imagery to assess the site's physical characteristics at the parcel level. The green polygon delineates the proposed expansion area, positioned within the previously identified 20-mile market gap. The approximate location is available via [Google Maps](https://maps.app.goo.gl/DyHQg48xqhwrTh4F7).
 * The spatial delineation of the candidate site, including the existing gas station and the adjacent parcel considered for potential expansion, resulted in an approximate area of **23.4 hectares (57.93 acres)**. This figure does not necessarily represent the area that is actually buildable or usable, which requires further investigation into land ownership, zoning, environmental constraints, flood risk, road access, and infrastructure requirements. For reference, the existing gas station within the area of interest occupies approximately **0.7 hectares (1.8 acres)**.
 * * The competitor marked with a red X on the map occupies an area of **2.5 hectares (6.22 acres)**. This site provides a reference point for assessing the potential development of a larger facility with more parking spaces and retail services to attract prospective customers.
