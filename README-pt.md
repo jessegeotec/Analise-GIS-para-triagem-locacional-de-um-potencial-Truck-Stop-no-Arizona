@@ -79,4 +79,11 @@ Com base no exposto, realizei um buffer de 20 e 30 milhas dos losangos do mapa, 
 A triagem espacial fornece os parâmetros para uma tomada de decisão baseada em evidências quanto à viabilidade locacional do Truck Stop na Interstate 10. A indicação do terreno em Tucson sustenta-se exclusivamente no cruzamento empírico das variáveis mapeadas: a interceptação de um corredor logístico com fluxo superior a 10.000 caminhões articulados diários (AZGeo), a inserção em um vazio de mercado de 20 milhas de raio, a classificação em zona de segurança hidrológica (Zona X da FEMA) e a adequação geométrica do lote privado para estruturação de pátio e manobras de frota pesada.
   - Contudo, os resultados limitam-se à adequação espacial, topológica e de demanda viária projetada. As evidências cartográficas e as imagens orbitais não permitem afirmar de forma absoluta a viabilidade geotécnica do solo, a inexistência de restrições legais específicas do zoneamento municipal ou os custos operacionais de terraplanagem. A confirmação definitiva para a aquisição do ativo exige que o modelo espacial seja complementado com levantamentos in loco e diligências regulatórias (due diligence) junto ao município.
 
+### 5.1 Outros Projetos e Competências Técnicas
+Para explorar outras abordagens metodológicas e ferramentas do meu portfólio, acesse os repositórios abaixo:
+* **[Análise Espacial de Mortalidade Infantil](https://github.com/jessegeotec/Mortalidade-Infantil-no-Acre-e-Seus-Condicionantes-2022):** Aplicação integrada de **SQL** e ferramentas de **SIG** (Sistemas de Informação Geográfica) para o mapeamento de indicadores de saúde e vulnerabilidade territorial.
+* **[Mapeamento de Origem-Destino: Atendimento RAPS](https://github.com/jessegeotec/Analise-Espacial-do-CAPS-RJ):** Desenvolvimento de pipeline **ETL** estruturado e modelagem de mapas de fluxo espacial utilizando a linguagem **R**.
+
 ### **Obrigado!**
+
+[LinkedIn](www.linkedin.com/in/jessegeotec) | [E-mail](mailto:jesselimabiz@outlook.com)
