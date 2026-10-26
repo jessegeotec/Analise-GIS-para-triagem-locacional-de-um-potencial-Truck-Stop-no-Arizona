@@ -79,4 +79,11 @@ Based on these findings, I generated 20-mile and 30-mile buffers around the mapp
 This spatial screening workflow provides the parameters for evidence-based decision-making regarding the locational feasibility of a Truck Stop on Interstate 10. The recommendation of the Tucson site is supported exclusively by the empirical intersection of mapped variables: the interception of a logistical corridor with over 10,000 combination trucks daily (AZGeo), the strategic placement within a 20-mile market void, hydrological safety certification (FEMA Zone X), and the geometric suitability of the private lot for heavy fleet maneuvering and parking infrastructure.
   - However, these results are limited to spatial, topological, and projected demand suitability. Cartographic evidence and orbital imagery cannot absolutely affirm geotechnical soil viability, the absence of specific municipal zoning restrictions, or exact earthwork costs. The definitive confirmation for asset acquisition requires this spatial model to be supplemented with on-site field surveys and comprehensive regulatory due diligence with the local municipality.
 
+### 5.1 Other Projects & Technical Skills
+To explore additional methodological approaches and tools in my portfolio, please visit the repositories below:
+- **[Spatial Analysis of Infant Mortality](https://github.com/jessegeotec/Mortalidade-Infantil-no-Acre-e-Seus-Condicionantes-2022):** Integrated application of **SQL** and **GIS** tools to map health indicators and territorial vulnerability.
+- **[Origin-Destination Mapping: RAPS Attendance](https://github.com/jessegeotec/Analise-Espacial-do-CAPS-RJ):** Development of a structured **ETL** pipeline and spatial flow mapping using **R**.
+
 ### **Thank you!**
+
+[LinkedIn](https://www.linkedin.com/in/jessegeotec/) | [E-mail](mailto:jesselimabiz@outlook.com)
