@@ -75,7 +75,7 @@ Com base no exposto, realizei um buffer de 20 e 30 milhas dos losangos do mapa, 
 ---
 
 # 4. Área de Interesse: Terreno em Tucson na Interstate 10
-![mapa6](Tucson_Site_Acq.png)
+![mapa6](Tucson_site_feasibility.png)
 * A etapa final de micro-triagem utilizou imagens orbitais de alta resolução para avaliar as condições físicas do terreno à escala de lote. O polígono verde delineia a área de expansão proposta, inserida com precisão no vazio mercadológico de 20 milhas previamente fundamentado. A localização aproxima da área pelo [Google Maps](https://maps.app.goo.gl/DyHQg48xqhwrTh4F7) está disponível clicando no link ao lado.
 * A delimitação espacial do terreno candidato, considerando o posto de combustível existente e a parcela adjacente analisada para uma possível expansão, resultou em uma área aproximada de 23,4 hectares (57,93 acres). Essa área não representa, necessariamente, a área efetivamente edificável ou utilizável, cuja determinação depende de verificações adicionais, incluindo situação fundiária, zoneamento, restrições ambientais, risco de inundação, acessibilidade viária e requisitos de infraestrutura. Para fins de registro, a área aproximada calculada do posto de combustível presente na área de interesse marcou 0,7 hectares (1,8 acres).
 * O concorrente demarcado com um X vermelho no mapa apresentou uma área de 2,5 hectares (6,22 acres), servindo como base para analisar a construção de uma área maior, com mais vagas, comércios e atrativa para potenciais clientes.
