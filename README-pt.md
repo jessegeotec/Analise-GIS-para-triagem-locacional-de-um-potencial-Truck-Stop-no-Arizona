@@ -15,7 +15,7 @@
 
 * Recorte Espacial: Estado do Arizona, EUA.
 * Ano de Referência: 2025/2026
-* A seleção dos indicadores não foi feita pela simples disponibilidade dos dados, mas sim ao buscar fontes que forneçam informação confiável e de qualidade para auxiliar na tomada de decisão em busca de uma área para a construção de um Truck Stop. 
+* A seleção dos indicadores não foi feita pela simples disponibilidade dos dados, mas sim ao buscar fontes que forneçam informação confiável e de qualidade para auxiliar na tomada de decisão em busca de uma área para a construção de uma Truck Stop. 
 * Os dados foram buscados a partir de algumas necessidade:
   - Contextualização territorial: organizar camadas de situação das terras para distinguir, em nível exploratório, áreas privadas, públicas e categorias com restrições específicas à aquisição privada convencional.
   - Leitura do tráfego: comparar o volume total estimado de veículos com indicadores de tráfego comercial de longa distância e regional.
@@ -52,7 +52,7 @@
 ### 3.3 Objetivo Comercial Através de Fluxo Rodoviário & Buffer para Análise da Área de Influência
 ![mapa3](LongHaul_Commercial.png)
 * O tráfego comercial de longo curso foca-se nos veículos articulados pesados (Combination Trucks), essenciais para a logística interestadual e de grandes distâncias. O mapeamento revela que as principais artérias de escoamento atravessam o estado, mas o maior eixo de concentração rodoviária interliga, de forma expressiva, as áreas metropolitanas de Phoenix e Tucson.
-* Esta métrica demonstra a elevada dependência desta rota para o transporte de mercadorias e viabiliza o corredor I-10 como a zona de maior viabilidade estrutural para a intercessão do tráfego pesado de longa duração. Devido ao objetivo proposto da construção de um Truck Stop, a análise do fluxo de caminhões articulados é de suma relevância por indicar potenciais clientes.
+* Esta métrica demonstra a elevada dependência desta rota para o transporte de mercadorias e viabiliza o corredor I-10 como a zona de maior viabilidade estrutural para a intercessão do tráfego pesado de longa duração. Devido ao objetivo proposto da construção de uma Truck Stop, a análise do fluxo de caminhões articulados é de suma relevância por indicar potenciais clientes.
 
 Com base no exposto, realizei um buffer de 20 e 30 milhas dos losangos do mapa, correspondentes aos principais competidores mapeados através de [API em Python](arizonaproject.ipynb) com dados do OpenStreetMap, da localização dos sites oficiais e de inspeção através de imagens de satélite do Google.
 
@@ -77,7 +77,7 @@ Com base no exposto, realizei um buffer de 20 e 30 milhas dos losangos do mapa, 
 # 4. Área de Interesse: Terreno em Tucson na Interstate 10
 ![mapa6](Tucson_Site_Acquisition.png)
 * A etapa final de micro-triagem utilizou imagens orbitais de alta resolução para avaliar as condições físicas do terreno à escala de lote. O polígono verde delineia a área de expansão proposta, inserida com precisão no vazio mercadológico de 20 milhas previamente fundamentado.
-* O mapeamento fundiário confirmou o estatuto da área como propriedade privada, viabilizando o processo de aquisição comercial. A localização adjacente à Interstate 10 garante acesso logístico imediato a uma área de alto fluxo rodoviário, entretanto, em uma área do perímetro calculado indicado como área de interesse há a presença de um posto de combustível para veículos de passeio. A sugestão é comprar essa área junto a esse posto e abrir um Truck Stop competitivo, tendo em vista a alta presença de empreendimentos desse gênero no estado. 
+* O mapeamento fundiário confirmou o estatuto da área como propriedade privada, viabilizando o processo de aquisição comercial. A localização adjacente à Interstate 10 garante acesso logístico imediato a uma área de alto fluxo rodoviário, entretanto, em uma área do perímetro calculado indicado como área de interesse há a presença de um posto de combustível para veículos de passeio. A sugestão é comprar essa área junto a esse posto e abrir uma Truck Stop competitivo, tendo em vista a alta presença de empreendimentos desse gênero no estado. 
 * A análise da geometria do lote evidencia área útil suficiente para suportar o raio de manobra exigido por veículos articulados de grande porte e infraestrutura de parqueamento de longa duração. Esta configuração espacial garante uma vantagem estrutural sobre o concorrente local de menor capacidade (Maverick Adv.) assinalado nas imediações, que não foi demarcado como concorrente devido a não ter sido identificado durante as análises como filial ou sócio de nenhuma das grandes empresas destacadas para a pesquisa.
 ---
 
