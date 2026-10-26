@@ -38,7 +38,10 @@
 ### 3.1 Arizona Territory: Land, Competitors, and Road Traffic
 ![map1](TotalVehicle_Vol_Estimat.png)
 
-- Initially, Arizona's territory was classified into three broader categories: private, government, and federal lands. Subsequently, the geolocations of the major truck stop and travel center competitors were inserted into the map.
+- Initially, the state of Arizona was classified into three areas (private, government, and federal territories). Furthermore, data points corresponding to major competitors in the truck stop industry were inserted. This division is based on the "BLM_AZ_Surface_Management_Agency" layer from the Bureau of Land Management (2026), consisting of the following groups:
+  - **Private Lands:** Private lands only.
+  - **Lands of the Government:** County, State, Other.
+  - **Federal, Natural and Indian Lands:** Bankhead-Jones Act, BLM, BR, Indian Lands, Local or State Parks, Military, NPS, State Wildlife Area, USFS, USFSW.
 - The state-wide feasibility analysis reveals that the highest traffic concentration occurs in the capital, Phoenix, which registers the most intense road flow in the state, with certain segments exceeding 200,000 vehicles daily. The second major volume hub is located in Tucson, the state's second most populous city, establishing a high-density logistical corridor between these two major urban centers. This dynamic was quantified using AZGeo Data Hub metrics published in 2025, which project the Future Annual Average Daily Traffic (Future AADT) for 2026 based on historical traffic behavior patterns.
 
 ### 3.2 Road Traffic: Single-Unit Truck Flow
@@ -63,7 +66,10 @@ Based on these findings, I generated 20-mile and 30-mile buffers around the mapp
 
 ### 3.4 Feasibility Analysis and Site Selection
 ![map5](FEMA_flood_hazard.png)
-- Once the radius of interest on the I-10 was defined, the next step required environmental safety validation against hydrological risks. Using the 2026 National Flood Hazard Layer (FEMA), flood hazard classes were mapped for the state.
+- Once the radius of interest on the I-10 was defined, the next step required environmental safety validation against hydrological risks. Using the 2026 National Flood Hazard Layer (FEMA), flood hazard classes were mapped for the state, so I mapping the classes of hazard risk for the State on Arizona that way:
+  - **Zones A, AE, AH, and AO (Special Flood Hazard Areas - SFHA):** Grouped together as they represent high hydrological risk areas with at least a 1% annual chance of flooding (the "100-year flood"). This grouping was applied because all these categories impose severe construction restrictions, pose critical risks to the Truck Stop infrastructure, and entail high costs for mandatory insurance and mitigation engineering.
+  - **Zone D (Undetermined Risk):** Classified as "better avoid" as it indicates areas where FEMA has not yet conducted hydrological analyses. For site screening and real estate acquisitions, this lack of data introduces incalculable regulatory and structural uncertainty, which can render site development unfeasible post-purchase.
+  - **Zone X (Viable and Safe Zones):** Selected as it represents minimal to moderate risk areas located outside the 100- and 500-year floodplains. In the Arizona desert region, which is prone to flash floods, positioning the development in this zone ensures structural viability, operational safety, and eliminates regulatory friction for expanding the yard and facilities.
 - A detailed inspection (highlighted in the top right corner) demonstrates that the Proposed Land in Tucson falls entirely within a Viable and Safe Zone.
 - This cartographic evidence certifies that the target acquisition area does not intersect Special Flood Hazard Areas (such as the light-blue delineated Zones A and AE). This mitigates structural threats from flash floods and ensures the project's physical and operational viability.
 ---
