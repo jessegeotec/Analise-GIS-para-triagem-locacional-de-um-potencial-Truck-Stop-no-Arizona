@@ -1,1 +1,0 @@
-# An-lise-GIS-para-triagem-locacional-de-um-potencial-Truck-Stop-no-Arizona
