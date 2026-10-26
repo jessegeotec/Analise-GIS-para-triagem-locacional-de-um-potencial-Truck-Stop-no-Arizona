@@ -35,7 +35,7 @@
 ---
 
 ## 3. Produtos Cartográficos
-### 3.1 
-![Estatísticas](correlacoes.jpg)
+### 3.1 Análise em macro escala
+![mapa1](RegionalCommercialTrafficAADT.png)
 
 * Para resp
