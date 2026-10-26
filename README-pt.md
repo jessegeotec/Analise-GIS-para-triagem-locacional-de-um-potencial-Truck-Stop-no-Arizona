@@ -38,7 +38,10 @@
 ### 3.1 Território do Arizona: Terra, Competidores e Fluxo Rodoviário
 ![mapa1](TotalVehicle_Vol_Estimat.png)
 
-* Inicialmente, o estado do Arizona foi classificado em três áreas: território privado, governamental e federal. Além disso, houve inserção dos pontos correspondentes aos principais concorrentes no ramo de truck stop e paradas para caminhoneiros.
+* Inicialmente, o estado do Arizona foi classificado em três áreas (território privado, governamental e federal). Além disso, houve inserção dos pontos correspondentes aos principais concorrentes no ramo de truck stop e paradas para caminhoneiros. Essa divisão é composta pela camada "BLM_AZ_Surface_Management_Agency" do Bureau of Land Management (2026), sendo composta pelos seguintes grupos:
+* - **Private Lands:** Private lands only.
+  - **Lands of the Government:** County, State, Other.
+  - **Federal, Natural and Indian Lands:** Bankhead-Jones Act, BLM, BR, Indian Lands, Local or State Parks, Military, NPS, State Wildlife Area, USFS, USFSW.
 * A análise de viabilidade estadual do Arizona revela que a maior concentração de tráfego ocorre na capital, Phoenix, que registra o fluxo rodoviário mais intenso do estado, com trechos superando 200.000 veículos diários. O segundo polo de maior volume localiza-se em Tucson, a segunda cidade mais populosa, formando um corredor logístico de alta densidade entre os dois grandes centros urbanos. Essa dinâmica foi quantificada a partir das métricas do AZGeo Data Hub publicadas em 2025, que projetam a estimativa do Volume Médio Diário Anual de Veículos (Future AADT) para o ano de 2026, calculadas com base no histórico de comportamento do fluxo rodoviário de anos anteriores.
 
 ### 3.2 Fluxo Rodoviário: Fluxo de Caminhões de Unidade Simples
@@ -63,7 +66,10 @@ Com base no exposto, realizei um buffer de 20 e 30 milhas dos losangos do mapa, 
 
 ### 3.4 Análise de Viabilidade e Seleção do Terreno
 ![mapa5](FEMA_flood_hazard.png)
-* Definido o raio de interesse na I-10, a avaliação seguinte exigiu a validação de segurança ambiental perante os riscos hidrológicos. Através da camada do National Flood Hazard Layer (FEMA) referente ao ano de 2026, mapearam-se as classes de perigo de inundação para o estado do Arizona.
+* Definido o raio de interesse na I-10, a avaliação seguinte exigiu a validação de segurança ambiental perante os riscos hidrológicos. Através da camada do National Flood Hazard Layer (FEMA) referente ao ano de 2026, mapearam-se as classes de perigo de inundação para o estado do Arizona da seguinte forma:
+* - **Zonas A, AE, AH e AO (Special Flood Hazard Areas - SFHA):** Foram agrupadas por representarem as áreas de alto risco hidrológico, com pelo menos 1% de chance anual de inundação (a chamada "cheia de 100 anos"). O agrupamento ocorreu porque todas essas categorias impõem restrições severas de construção, risco crítico para a infraestrutura do Truck Stop e custos elevados com seguros obrigatórios e engenharia de mitigação.
+  - **Zona D (Risco Indeterminado):** Foi classificada como "melhor evitar" porque representa áreas onde a FEMA ainda não realizou análises hidrológicas. Na triagem locacional e em aquisições de Real Estate, a ausência de dados introduz uma incerteza regulatória e estrutural incalculável, o que pode inviabilizar o desenvolvimento do terreno após a compra.
+  - **Zona X (Viable and Safe Zones):** Foi a selecionada por representar áreas de risco mínimo a moderado, situadas fora das planícies de inundação de 100 e 500 anos. Para a região do deserto do Arizona, que sofre com flash floods, posicionar o empreendimento nesta zona garante a viabilidade estrutural, a segurança operacional e elimina o atrito regulatório para a expansão do pátio e das edificações.
 * A inspeção detalhada (destaque no canto superior direito) demonstra o terreno proposto em Tucson (Proposed Land on Tucson) inserido de forma integral numa zona específica (Viable and Safe Zones).
 * Esta evidência cartográfica certifica que a área pretendida não intersecta as zonas de elevado risco (Special Flood Hazard Areas, como as zonas A e AE delineadas a azul claro), mitigando ameaças estruturais decorrentes de cheias repentinas e assegurando a viabilidade física e operacional do projeto.
 ---
