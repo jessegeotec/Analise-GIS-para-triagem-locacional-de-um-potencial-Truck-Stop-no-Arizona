@@ -37,7 +37,7 @@
 
 ## 3. Produtos Cartográficos 
 ### 3.1 Território do Arizona: Terra, Competidores e Fluxo Rodoviário
-![mapa1](TotalVehicle_Vol_Estimate.png)
+![mapa1](TotalVehicle_Vol_Estim.png)
 
 * Inicialmente, o estado do Arizona foi classificado em três áreas (território privado, governamental e federal). Além disso, houve inserção dos pontos correspondentes aos principais concorrentes no ramo de truck stop e paradas para caminhoneiros. Essa divisão é composta pela camada "BLM_AZ_Surface_Management_Agency" do Bureau of Land Management (2026), sendo composta pelos seguintes grupos:
   - **Private Lands:** Private lands only.
@@ -46,12 +46,12 @@
 * A análise de viabilidade estadual do Arizona revela que a maior concentração de tráfego ocorre na capital, Phoenix, que registra o fluxo rodoviário mais intenso do estado, com trechos superando 200.000 veículos diários. O segundo polo de maior volume localiza-se em Tucson, a segunda cidade mais populosa, formando um corredor logístico de alta densidade entre os dois grandes centros urbanos. Essa dinâmica foi quantificada a partir das métricas do AZGeo Data Hub publicadas em 2025, que projetam a estimativa do Volume Médio Diário Anual de Veículos (Future AADT) para o ano de 2026, calculadas com base no histórico de comportamento do fluxo rodoviário de anos anteriores.
 
 ### 3.2 Fluxo Rodoviário: Fluxo de Caminhões de Unidade Simples
-![mapa2](Regional_Commercial_Traffic.png)
+![mapa2](Regional_Commercial_Traf.png)
 * A análise do tráfego comercial regional foca nos caminhões de unidade simples (Single-Unit Trucks), veículos de carga de estrutura rígida sem articulação. O mapa demonstra que a densidade desse tipo de frota está fortemente concentrada nas zonas metropolitanas para distribuição local, com a região de Phoenix registrando alto fluxo de caminhões diariamente.
 * Tucson desponta como o segundo maior polo, apresentando trechos urbanos e periurbanos com tráfego variando de 10.000 a mais de 20.000 veículos por dia. Além da circulação interna das cidades, o eixo rodoviário que interliga Phoenix a Tucson sustenta um fluxo contínuo e elevado, mantendo volumes expressivos entre 4.000 e 10.000 caminhões diários. Isso evidencia a vitalidade estrutural desse corredor específico para a logística regional de curta e média distância no estado.
 
 ### 3.3 Objetivo Comercial Através de Fluxo Rodoviário & Buffer para Análise da Área de Influência
-![mapa3](LongHaul_Commercial.png)
+![mapa3](LongHaul_Comm.png)
 * O tráfego comercial de longo curso foca-se nos veículos articulados pesados (Combination Trucks), essenciais para a logística interestadual e de grandes distâncias. O mapeamento revela que as principais artérias de escoamento atravessam o estado, mas o maior eixo de concentração rodoviária interliga, de forma expressiva, as áreas metropolitanas de Phoenix e Tucson.
 * Esta métrica demonstra a elevada dependência desta rota para o transporte de mercadorias e viabiliza o corredor I-10 como a zona de maior viabilidade estrutural para a intercessão do tráfego pesado de longa duração. Devido ao objetivo proposto da construção de uma Truck Stop, a análise do fluxo de caminhões articulados é de suma relevância por indicar potenciais clientes.
 
