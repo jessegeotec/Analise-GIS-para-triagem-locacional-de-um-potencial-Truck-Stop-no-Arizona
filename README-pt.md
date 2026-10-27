@@ -13,6 +13,7 @@
 
 ## 2. Área de Estudo e Dados Selecionados
 ![arizona](map_arizona_rainer.jpg)
+*[fonte](https://www.istockphoto.com/br/vetor/arizona-mapa-rodovi%C3%A1rio-gm868030266-144411651)*
 * Recorte Espacial: Estado do Arizona, EUA.
 * Ano de Referência: 2025/2026
 * A seleção dos indicadores não foi feita pela simples disponibilidade dos dados, mas sim ao buscar fontes que forneçam informação confiável e de qualidade para auxiliar na tomada de decisão em busca de uma área para a construção de uma Truck Stop. 
