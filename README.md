@@ -37,7 +37,7 @@
 
 ## 3. Cartographic Products 
 ### 3.1 Arizona Territory: Land, Competitors, and Road Traffic
-![map1](TotalVehicle_Vol_Estimat.png)
+![map1](TotalVehicle_Vol_Estimate.png)
 - Initially, the state of Arizona was classified into three areas (private, government, and federal territories). Furthermore, data points corresponding to major competitors in the truck stop industry were inserted. This division is based on the "BLM_AZ_Surface_Management_Agency" layer from the Bureau of Land Management (2026), consisting of the following groups:
   - **Private Lands:** Private lands only.
   - **Lands of the Government:** County, State, Other.
@@ -45,7 +45,7 @@
 - The state-wide feasibility analysis reveals that the highest traffic concentration occurs in the capital, Phoenix, which registers the most intense road flow in the state, with certain segments exceeding 200,000 vehicles daily. The second major volume hub is located in Tucson, the state's second most populous city, establishing a high-density logistical corridor between these two major urban centers. This dynamic was quantified using AZGeo Data Hub metrics published in 2025, which project the Future Annual Average Daily Traffic (Future AADT) for 2026 based on historical traffic behavior patterns.
 
 ### 3.2 Road Traffic: Single-Unit Truck Flow
-![map2](RegionalCommercial_Traffic.png)
+![map2](Regional_Commercial_Traffic.png)
 - The regional commercial traffic analysis focuses on Single-Unit Trucks (rigid-structure cargo vehicles without articulation). The map demonstrates that the density of this fleet is heavily concentrated in metropolitan areas for local distribution, with the Phoenix region recording a massive daily truck flow.
 - Tucson emerges as the second-largest hub, with urban and peri-urban segments handling between 10,000 and over 20,000 vehicles per day. Beyond internal city circulation, the highway axis connecting Phoenix to Tucson sustains a continuous and elevated flow, maintaining significant volumes of 4,000 to 10,000 trucks daily. This highlights the structural vitality of this specific corridor for short- and medium-haul regional logistics.
 
