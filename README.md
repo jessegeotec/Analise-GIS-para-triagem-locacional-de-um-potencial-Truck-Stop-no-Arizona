@@ -37,7 +37,7 @@
 ## 3. Cartographic Products 
 ### 3.1 Arizona Territory: Land, Competitors, and Road Traffic
 ![map1](TotalVehicle_Vol_Estimat.png)
-
+*[fonte](https://www.istockphoto.com/br/vetor/arizona-mapa-rodovi%C3%A1rio-gm868030266-144411651)*
 - Initially, the state of Arizona was classified into three areas (private, government, and federal territories). Furthermore, data points corresponding to major competitors in the truck stop industry were inserted. This division is based on the "BLM_AZ_Surface_Management_Agency" layer from the Bureau of Land Management (2026), consisting of the following groups:
   - **Private Lands:** Private lands only.
   - **Lands of the Government:** County, State, Other.
