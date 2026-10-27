@@ -12,7 +12,7 @@
 ---
 
 ## 2. Study Area and Selected Data
-
+![arizona](map_arizona_rainer.jpg)
 - Recorte Espacial: State of Arizona, USA.
 - Reference Year: 2025/2026
 - The indicators were not selected merely based on data availability, but through a targeted search for reliable, high-quality sources that support evidence-based decision-making for land acquisition. 
