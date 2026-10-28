@@ -92,6 +92,8 @@ From a methodological perspective, the project demonstrates the integrated appli
 
 Overall, the study presents a geospatially informed site-selection hypothesis and a technical basis for the next stage of investigation. Any acquisition or development decision should be made only after integrating these findings with field assessments, regulatory due diligence, and commercial and financial analyses.
 
+I am providing the [link](https://www.loom.com/share/b11c55c8adaa4f1e94e6f5a757181a33) to the oral presentation of the project in English.
+
 ### 5.1 Other Projects & Technical Skills
 To explore additional methodological approaches and tools in my portfolio, please visit the repositories below:
 - **[Spatial Analysis of Infant Mortality](https://github.com/jessegeotec/Mortalidade-Infantil-no-Acre-e-Seus-Condicionantes-2022):** Integrated application of **SQL** and **GIS** tools to map health indicators and territorial vulnerability.
