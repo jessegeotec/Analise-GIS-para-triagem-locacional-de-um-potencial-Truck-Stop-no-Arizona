@@ -93,6 +93,8 @@ Do ponto de vista metodológico, o projeto demonstra a aplicação integrada de 
 
 Assim, o estudo apresenta uma hipótese locacional fundamentada em critérios geoespaciais e uma base técnica para orientar a próxima etapa de investigação. A decisão de aquisição ou desenvolvimento deverá ocorrer somente após a integração desses resultados com verificações de campo, diligências regulatórias e análises comerciais e financeiras.
 
+Por fim, disponibilizo o [link](https://www.loom.com/share/b11c55c8adaa4f1e94e6f5a757181a33) da apresentação oral em inglês do projeto.
+
 ### 5.1 Outros Projetos e Competências Técnicas
 Para explorar outras abordagens metodológicas e ferramentas do meu portfólio, acesse os repositórios abaixo:
 * **[Análise Espacial de Mortalidade Infantil](https://github.com/jessegeotec/Mortalidade-Infantil-no-Acre-e-Seus-Condicionantes-2022):** Aplicação integrada de **SQL** e ferramentas de **SIG** (Sistemas de Informação Geográfica) para o mapeamento de indicadores de saúde e vulnerabilidade territorial.
