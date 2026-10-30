@@ -7,6 +7,7 @@
 
 ## 1. Contextualização e Objetivo
 * O estado do Arizona, localizado nos Estados Unidos, possuí alta presença de Truck Stops devido a sua alta dependência do tráfego rodoviário, tendo em vista a formação geológica e disposição geográfica dos terrenos. Isso faz com que a geolocalização para a construção de um novo posto de combustível para atender caminhões de grande porte seja realizada através de um estudo territorial, devendo ser observado não apenas a viabilidade de aquisição do terreno e capacidade em comportar a construção, mas também o fluxo de carretas e caminhões, além do risco de desastres naturais. O sul e o sudoeste do estado (onde ficam Phoenix e Tucson) são formados por vales desérticos de baixa altitude (como o Deserto de Sonora). Embora passe a maior parte do ano extremamente seco e quente, o sul sofre com enchentes repentinas severas (flash floods) em duas épocas específicas (verão e inverno), necessitando que o terreno selecionado seja categorizado como seguro de acordo com a FEMA Flood Map Service Center.
+* Esse projeto foi origem do convite de uma head hunter para uma vaga internacional. Até o momento, foi um dos trabalhos mais interessantes que já fiz porque integrou e demandou diversos conhecimentos e aplicações diferentes para poder ser realizado.
 * O trabalho combina dados de tráfego, ETL em python, imagens de satélite, camadas territoriais, localização de concorrentes e triagem de viabilidade do terreno mediante a análise de risco de eventos e desastres naturais, tais como enchentes (FEMA).
 ---
 
