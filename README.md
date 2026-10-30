@@ -7,6 +7,7 @@
 
 ## 1. Context and Objective
 - The state of Arizona, located in the United States, has a strong presence of truck stops due to its heavy reliance on road traffic, driven by its geological formation and geographical layout. Consequently, site selection for a new high-capacity truck stop requires a comprehensive spatial study. This study must evaluate not only land acquisition feasibility and spatial capacity but also heavy-duty truck traffic flow and natural disaster risks. The southern and southwestern regions of the state (home to Phoenix and Tucson) consist of low-elevation desert valleys (such as the Sonoran Desert). Although the region is extremely dry and hot most of the year, it is highly susceptible to severe flash floods during two specific seasons (summer and winter), making it mandatory to ensure the selected site is categorized as a safe zone by the FEMA Flood Map Service Center.
+- This project led to an invitation from a headhunter for an international role. To date, it has been one of the most interesting projects I have ever worked on, as it integrated and required a wide range of distinct skills and applications to be accomplished.
 - The project combines traffic data, Python ETL, satellite imagery, territorial constraints, competitor mapping, and site feasibility screening through natural hazard risk assessment (FEMA).
 ---
 
