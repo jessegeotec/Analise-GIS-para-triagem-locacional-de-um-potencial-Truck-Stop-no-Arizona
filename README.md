@@ -7,7 +7,6 @@
 
 ## 1. Context and Objective
 - The state of Arizona, located in the United States, has a strong presence of truck stops due to its heavy reliance on road traffic, driven by its geological formation and geographical layout. Consequently, site selection for a new high-capacity truck stop requires a comprehensive spatial study. This study must evaluate not only land acquisition feasibility and spatial capacity but also heavy-duty truck traffic flow and natural disaster risks. The southern and southwestern regions of the state (home to Phoenix and Tucson) consist of low-elevation desert valleys (such as the Sonoran Desert). Although the region is extremely dry and hot most of the year, it is highly susceptible to severe flash floods during two specific seasons (summer and winter), making it mandatory to ensure the selected site is categorized as a safe zone by the FEMA Flood Map Service Center.
-- The objective of this repository is to demonstrate applied competencies for the GIS & Land Feasibility Analyst role at KND Fuels. This is achieved through a state-wide spatial analysis workflow followed by a local micro-screening investigation in the Tucson region.
 - The project combines traffic data, Python ETL, satellite imagery, territorial constraints, competitor mapping, and site feasibility screening through natural hazard risk assessment (FEMA).
 ---
 
@@ -91,8 +90,6 @@ Traffic indicators highlighted the Phoenix–Tucson corridor as a relevant route
 From a methodological perspective, the project demonstrates the integrated application of GIS, Python-based data processing, proximity analysis, spatial difference operations, and cartographic interpretation to support site-selection decisions. The primary outcome is not proof that the proposed development should proceed at the selected location, but a reproducible screening workflow that narrows the search area and identifies spatial criteria relevant to subsequent decision-making. The site's feasibility remains subject to further validation of the competitor inventory, market demand, road access, zoning, environmental and geotechnical conditions, infrastructure availability, and development costs. The delineated 23.44-hectare area does not necessarily represent the developable area, and FEMA flood classifications do not replace site-specific flood and drainage studies.
 
 Overall, the study presents a geospatially informed site-selection hypothesis and a technical basis for the next stage of investigation. Any acquisition or development decision should be made only after integrating these findings with field assessments, regulatory due diligence, and commercial and financial analyses.
-
-Finally, I'm providing the [link](https://www.loom.com/share/b11c55c8adaa4f1e94e6f5a757181a33) to the oral presentation of the project in English.
 
 ### 5.1 Other Projects & Technical Skills
 To explore additional methodological approaches and tools in my portfolio, please visit the repositories below:
