@@ -7,7 +7,6 @@
 
 ## 1. Contextualização e Objetivo
 * O estado do Arizona, localizado nos Estados Unidos, possuí alta presença de Truck Stops devido a sua alta dependência do tráfego rodoviário, tendo em vista a formação geológica e disposição geográfica dos terrenos. Isso faz com que a geolocalização para a construção de um novo posto de combustível para atender caminhões de grande porte seja realizada através de um estudo territorial, devendo ser observado não apenas a viabilidade de aquisição do terreno e capacidade em comportar a construção, mas também o fluxo de carretas e caminhões, além do risco de desastres naturais. O sul e o sudoeste do estado (onde ficam Phoenix e Tucson) são formados por vales desérticos de baixa altitude (como o Deserto de Sonora). Embora passe a maior parte do ano extremamente seco e quente, o sul sofre com enchentes repentinas severas (flash floods) em duas épocas específicas (verão e inverno), necessitando que o terreno selecionado seja categorizado como seguro de acordo com a FEMA Flood Map Service Center.
-* O objetivo desse repositório foi demonstrar competências aplicáveis à função de GIS & Land Feasibility Analyst da KND Fuels por meio de um fluxo de análise espacial em escala estadual e de uma investigação local na região de Tucson.
 * O trabalho combina dados de tráfego, ETL em python, imagens de satélite, camadas territoriais, localização de concorrentes e triagem de viabilidade do terreno mediante a análise de risco de eventos e desastres naturais, tais como enchentes (FEMA).
 ---
 
@@ -92,8 +91,6 @@ A análise dos indicadores de tráfego destacou o corredor Phoenix–Tucson como
 Do ponto de vista metodológico, o projeto demonstra a aplicação integrada de geoprocessamento, tratamento de dados em Python, análise de proximidade, operações de diferença espacial e interpretação cartográfica para apoiar uma decisão de localização. O principal resultado não é a comprovação de que o empreendimento deve ser construído no terreno selecionado, mas a estruturação de um procedimento reproduzível de triagem que reduz o universo de investigação e explicita critérios espaciais relevantes para uma decisão posterior. Em suma, a viabilidade do terreno ainda depende da validação dos concorrentes, da demanda, do acesso viário, do zoneamento, das condições ambientais e geotécnicas, da infraestrutura e dos custos do empreendimento. A área delimitada de 23,44 ha não corresponde necessariamente à área edificável, e a classificação da FEMA não substitui estudos locais de inundação e drenagem.
 
 Assim, o estudo apresenta uma hipótese locacional fundamentada em critérios geoespaciais e uma base técnica para orientar a próxima etapa de investigação. A decisão de aquisição ou desenvolvimento deverá ocorrer somente após a integração desses resultados com verificações de campo, diligências regulatórias e análises comerciais e financeiras.
-
-Por fim, disponibilizo o [link](https://www.loom.com/share/b11c55c8adaa4f1e94e6f5a757181a33) da apresentação oral em inglês do projeto.
 
 ### 5.1 Outros Projetos e Competências Técnicas
 Para explorar outras abordagens metodológicas e ferramentas do meu portfólio, acesse os repositórios abaixo:
